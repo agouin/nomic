@@ -1631,7 +1631,7 @@ dependencies = [
  "ed 0.3.0",
  "futures",
  "js-sys",
- "orga 0.2.0",
+ "orga 0.2.0 (git+https://github.com/nomic-io/orga?branch=v2-legacy-main)",
  "secp256k1 0.21.3",
  "serde",
  "serde_json",
@@ -1812,6 +1812,50 @@ dependencies = [
 [[package]]
 name = "orga"
 version = "0.2.0"
+source = "git+https://github.com/agouin/orga?branch=andrew/aarch-v2#867b9d71be78828f154594092b8a95cf4b296208"
+dependencies = [
+ "abci2",
+ "async-trait",
+ "base64",
+ "bech32",
+ "ed 0.3.0",
+ "ed25519-dalek",
+ "flate2",
+ "futures-lite",
+ "hex",
+ "hex-literal",
+ "home",
+ "is_executable",
+ "js-sys",
+ "log",
+ "merk 1.0.0 (git+https://github.com/nomic-io/merk?rev=e9038a659e1ad3cf13720b57be88e2845d0d6a01)",
+ "num-rational",
+ "num-traits",
+ "orga-macros 0.2.2 (git+https://github.com/agouin/orga?branch=andrew/aarch-v2)",
+ "prost",
+ "reqwest",
+ "ripemd",
+ "rust_decimal",
+ "rust_decimal_macros",
+ "secp256k1 0.21.3",
+ "seq-macro",
+ "serde",
+ "serde_json",
+ "sha2",
+ "tar",
+ "tendermint",
+ "tendermint-proto",
+ "tendermint-rpc",
+ "thiserror",
+ "toml_edit 0.2.1",
+ "wasm-bindgen",
+ "wasm-bindgen-futures",
+ "web-sys",
+]
+
+[[package]]
+name = "orga"
+version = "0.2.0"
 source = "git+https://github.com/nomic-io/orga?branch=v2-legacy-main#cc9356ddbd5a41c7d0934d2fb9fa3a47181a198d"
 dependencies = [
  "abci2",
@@ -1831,7 +1875,7 @@ dependencies = [
  "merk 1.0.0 (git+https://github.com/nomic-io/merk?rev=e9038a659e1ad3cf13720b57be88e2845d0d6a01)",
  "num-rational",
  "num-traits",
- "orga-macros 0.2.2",
+ "orga-macros 0.2.2 (git+https://github.com/nomic-io/orga?branch=v2-legacy-main)",
  "prost",
  "reqwest",
  "ripemd",
@@ -1856,7 +1900,7 @@ dependencies = [
 [[package]]
 name = "orga"
 version = "0.3.0"
-source = "git+https://github.com/agouin/orga.git?branch=develop#f6de0cb6db5a416f1fa462b581d0dc420e30f475"
+source = "git+https://github.com/agouin/orga.git?branch=andrew/aarch64_v2_and_v3#4021d2128b63128ff5131be69f36d4fb1ce2e140"
 dependencies = [
  "abci2",
  "async-trait",
@@ -1875,7 +1919,7 @@ dependencies = [
  "merk 1.0.0 (git+https://github.com/nomic-io/merk?rev=a2e46ed40c7b7eeaaed7a94654c18413728f7b8d)",
  "num-rational",
  "num-traits",
- "orga 0.2.0",
+ "orga 0.2.0 (git+https://github.com/agouin/orga?branch=andrew/aarch-v2)",
  "orga-macros 0.2.4",
  "prost",
  "reqwest",
@@ -1901,6 +1945,17 @@ dependencies = [
 [[package]]
 name = "orga-macros"
 version = "0.2.2"
+source = "git+https://github.com/agouin/orga?branch=andrew/aarch-v2#867b9d71be78828f154594092b8a95cf4b296208"
+dependencies = [
+ "heck 0.3.3",
+ "proc-macro2",
+ "quote",
+ "syn",
+]
+
+[[package]]
+name = "orga-macros"
+version = "0.2.2"
 source = "git+https://github.com/nomic-io/orga?branch=v2-legacy-main#cc9356ddbd5a41c7d0934d2fb9fa3a47181a198d"
 dependencies = [
  "heck 0.3.3",
@@ -1912,7 +1967,7 @@ dependencies = [
 [[package]]
 name = "orga-macros"
 version = "0.2.4"
-source = "git+https://github.com/agouin/orga.git?branch=develop#f6de0cb6db5a416f1fa462b581d0dc420e30f475"
+source = "git+https://github.com/agouin/orga.git?branch=andrew/aarch64_v2_and_v3#4021d2128b63128ff5131be69f36d4fb1ce2e140"
 dependencies = [
  "heck 0.3.3",
  "proc-macro2",
